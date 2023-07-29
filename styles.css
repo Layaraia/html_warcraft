@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.rowcol {
+  display: flex;
+}
+
 .photo {
   width: 300px;
   border: 5px ridge crimson;
@@ -14,7 +18,6 @@ body {
 .photo-2 {
   width: 75%;
   border: 2px solid black;
-  align-content: center;
 }
 
 .info-1 p {
@@ -31,10 +34,6 @@ body {
   font-weight: 400;
   font-style: italic;
   letter-spacing: 1px;
-}
-
-.container div {
-  float: left;
 }
 
 .container {
@@ -65,14 +64,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.col-1 {
-  width: 30%px;
-}
-
-.col-2 {
-  width: 70%;
-  margin-left: 50px;
-  align-self: center;
 }
