@@ -46,6 +46,11 @@ body {
   border: 2px solid black;
 }
 
+.photo-3 {
+  width: 60em;
+  border: 2px solid black;
+}
+
 .text {
   margin: 0px 20px;
 }
@@ -55,6 +60,14 @@ body {
   padding: 15px;
   border: 2px dashed crimson;
   height: fit-content;
+}
+
+.text-3 {
+  margin: 0px 20px;
+  padding: 15px;
+  border: 4px solid red;
+  height: fit-content;
+  background-color: black;
 }
 
 .info-1 p {
@@ -108,4 +121,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.info-3 a {
+  color: purple;
+  font-weight: bold;
 }
