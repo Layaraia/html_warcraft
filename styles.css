@@ -9,7 +9,8 @@ body {
 .navbar {
   background-color: black;
   overflow: hidden;
-  width: 100%;
+  width: 75%;
+  margin: auto;
 }
 
 .navbar a {
