@@ -53,6 +53,8 @@ body {
 .text-2 {
   margin: 0px 20px;
   padding: 30px;
+  border: 2px dashed crimson;
+  height: fit-content;
 }
 
 .info-1 p {
@@ -76,7 +78,6 @@ body {
   font-style: normal;
   letter-spacing: 1px;
   margin: 20px;
-  border: 2px dashed crimson;
 }
 
 .container {
