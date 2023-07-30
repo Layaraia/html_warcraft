@@ -154,3 +154,7 @@ a:hover {
   padding: 6px 25px;
   color: gold;
 }
+
+.list {
+  padding-left: 20px;
+}
