@@ -50,6 +50,9 @@ body {
     flex-direction: column;
     text-align: center;
   }
+  .rowcol2 img {
+    width: 100%;
+  }
 }
 
 .photo {
@@ -58,7 +61,7 @@ body {
 }
 
 .photo-2 {
-  width: 90em;
+  width: 80em;
   border: 2px solid black;
 }
 
