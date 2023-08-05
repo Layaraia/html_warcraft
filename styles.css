@@ -32,8 +32,24 @@ body {
   color: white;
 }
 
-.rowcol {
+.rowcol1 {
   display: flex;
+}
+
+.rowcol2 {
+  display: flex;
+}
+
+@media (max-width: 680px) {
+  .rowcol1 {
+    flex-direction: column;
+    text-align: center;
+    display: block;
+  }
+  .rowcol2 {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .photo {
